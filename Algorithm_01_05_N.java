@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
+// ## 특정 문자 뒤집기 ##
 // String str을 char배열로 받기 ==> str.toCharArray();
 // char배열을 String로 받기 ==> String.valueOf(char배열)
 // isLetterOrDigit : 특스문자 포함여부 확인 / 특수문자 없을 경우 true , 있을 경우 false
 // *point : lr:char배열의 첫번째 인덱스 , rt:char배열의 마지막값 인덱스 사용
-
-public class Algorithm_01_05 {
+public class Algorithm_01_05_N {
 
     public String Solution(String str){
         char[] chaArray = str.toCharArray();
@@ -25,7 +25,7 @@ public class Algorithm_01_05 {
         return String.valueOf(chaArray);
     }
     public static void main(String[] args) {
-        Algorithm_01_05 t = new Algorithm_01_05();
+        Algorithm_01_05_N t = new Algorithm_01_05_N();
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         System.out.println(t.Solution(str));

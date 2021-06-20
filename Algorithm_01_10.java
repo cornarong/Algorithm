@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// ## 가장 짧은 문자거리 ##
 public class Algorithm_01_10 {
 
     static void Solution(String str){

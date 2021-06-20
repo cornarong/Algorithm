@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// ## 회문 문자열 ##
 public class Algorithm_01_07 {
 
     static String Solution(String str){

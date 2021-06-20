@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// ## 유효한 팰린드롬 ##
 public class Algorithm_01_08 {
 
     static void Solution(String str){

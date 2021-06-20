@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// ## 숫자만 추출 ##
 public class Algorithm_01_09 {
 
     static void Solution(String str){

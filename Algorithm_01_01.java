@@ -1,5 +1,6 @@
 import java.util.Scanner;
-// 문자 찾기
+
+// ## 문자 찾기 ##
 // char은 대소문자 변환 시 Character.toUpperCase(인자값) 이런식으로 사용해야함.
 // String 문자열을 char[]에 한글자씩 담는 방법 => char[] 변수명 = 문자열.toCharArray();
 public class Algorithm_01_01 {
