@@ -8,7 +8,16 @@ public class Algorithm_02_05 {
         // 인덱스번호로 작업을 진행하기 위해 -> 들어온 Int값 만큼 인덱스번호를 생성 -> num+1
         int[] primeNumber = new int[num+1];
 
+
+        // [n] = 10
+        // 0 1 2 3 4 5 6 7 8 9
+        // [n+1] = 11
+        // 0 1 2 3 4 5 6 7 8 9 10
+        // 문제가 이해가 안되는 부분이 있음.
+
+
         int count = 0;
+        // i <= num 이 되어야 a부터 ~ n까지의 n값도 체크함. ex) 19를 넣으면 7이 호출됨 사실상 19까지 포함해서 8이 호출되어야 하지 않은가.
         for (int i = 2; i < num; i++) {
             if(primeNumber[i] == 0){
                 count++;
