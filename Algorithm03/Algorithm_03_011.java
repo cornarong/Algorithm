@@ -9,7 +9,7 @@ import java.util.Scanner;
 // 1. 합칠 두 배열의 길이를 더한 새로운 배열 생성.
 // 2. System.arraycopy(A, 0번부터, C, 0번부터, A의길이); -> A배열의 0번 부터를 ~ C배열에 0번부터 A의 길이만큼 넣는다.
 // 3. System.arraycopy(B, 0번부터, C, A의길이, B의길이); -> B배열의 0번 부터를 ~ C배열의 A의 길이부터 B의 길이만큼 넣는다.
-public class Algorithm_03_01 {
+public class Algorithm_03_011 {
 
     static void Solution(int numA, int numB, int[] ArrayA, int[] ArrayB){
 
