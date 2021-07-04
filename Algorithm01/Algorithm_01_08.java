@@ -1,3 +1,5 @@
+package Algorithm01;
+
 import java.util.Scanner;
 
 // ## 유효한 팰린드롬 ##

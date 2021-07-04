@@ -1,3 +1,5 @@
+package Algorithm01;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

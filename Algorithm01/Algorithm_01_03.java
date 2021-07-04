@@ -1,3 +1,5 @@
+package Algorithm01;
+
 import java.util.Scanner;
 
 // ## 문장 속 단어 ##

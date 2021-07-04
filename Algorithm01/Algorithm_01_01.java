@@ -1,3 +1,5 @@
+package Algorithm01;
+
 import java.util.Scanner;
 
 // ## 문자 찾기 ##

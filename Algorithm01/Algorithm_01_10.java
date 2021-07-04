@@ -1,3 +1,5 @@
+package Algorithm01;
+
 import java.util.Scanner;
 
 // ## 가장 짧은 문자거리 ##
