@@ -1,3 +1,5 @@
+package Algorithm03;
+
 import java.util.Scanner;
 
 // ## 최대 매출 ##

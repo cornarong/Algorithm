@@ -1,3 +1,5 @@
+package Algorithm03;
+
 import java.util.Scanner;
 
 // ## 연속부분수열(복합적문제) ##

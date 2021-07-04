@@ -1,3 +1,5 @@
+package Algorithm03;
+
 import java.util.Scanner;
 
 // ## 연속된 자연수의 합 ##

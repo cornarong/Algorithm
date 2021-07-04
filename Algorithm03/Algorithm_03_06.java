@@ -1,3 +1,5 @@
+package Algorithm03;
+
 import java.util.Scanner;
 
 // ## 최대 길이 연속부분수열 ##
