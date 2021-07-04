@@ -1,4 +1,4 @@
-package test04;
+package algorithm04;
 
 import java.util.Collections;
 import java.util.Scanner;
