@@ -1,4 +1,4 @@
-package algorithm06;
+package test06;
 
 import java.util.Scanner;
 
