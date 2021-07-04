@@ -1,3 +1,5 @@
+package Algorithm02;
+
 import java.util.Scanner;
 
 // ## 피보나치 수열 ##

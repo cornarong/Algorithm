@@ -1,3 +1,5 @@
+package Algorithm02;
+
 import java.util.Scanner;
 
 // ## 큰 수 출력하기 ##

@@ -1,3 +1,5 @@
+package Algorithm02;
+
 import java.util.Scanner;
 
 // ## 임시반장 정하기 ##

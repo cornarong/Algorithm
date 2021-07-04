@@ -1,3 +1,5 @@
+package Algorithm02;
+
 import java.util.Scanner;
 
 // ## 등수 구하기 ##

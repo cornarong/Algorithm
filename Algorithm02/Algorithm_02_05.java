@@ -1,3 +1,5 @@
+package Algorithm02;
+
 import java.util.Scanner;
 
 public class Algorithm_02_05 {
