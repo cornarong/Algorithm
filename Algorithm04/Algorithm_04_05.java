@@ -1,3 +1,5 @@
+package Algorithm04;
+
 import java.util.Collections;
 import java.util.Scanner;
 import java.util.TreeSet;
