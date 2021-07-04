@@ -1,4 +1,4 @@
-package Algorithm04;
+package algorithm04;
 
 import java.util.HashMap;
 import java.util.Scanner;

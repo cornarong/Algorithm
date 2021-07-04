@@ -1,4 +1,4 @@
-package Algorithm03;
+package algorithm03;
 
 import java.util.ArrayList;
 import java.util.Arrays;
