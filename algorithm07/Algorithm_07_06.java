@@ -18,10 +18,8 @@ import java.util.Scanner;
 // 3
 
 public class Algorithm_07_06 {
-
     static int n;
     static int[] ch;
-
     public void DFS(int L){
         if(L == n+1){ // DFS함수의 인자값 L이 입력값 n보다 크면 종료 시점은 참이된다.
             for(int i=0; i<=n; i++){
