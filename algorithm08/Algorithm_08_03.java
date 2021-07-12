@@ -3,7 +3,7 @@ package algorithm08;
 import java.util.Scanner;
 
 // ## 최대 점수 구하기 (DFS) ##
-// 재귀함수 사용. 이진트리 레벨 순회.
+// 재귀함수
 public class Algorithm_08_03 {
 
     static int n; // 문제의 갯수
