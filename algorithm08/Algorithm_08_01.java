@@ -3,7 +3,7 @@ package algorithm08;
 import java.util.Scanner;
 
 // ## 합이 같은 부분 집합 (DFS:아마존 인터뷰) ##
-// 재귀함수 이용.
+// 재귀함수
 public class Algorithm_08_01 {
 
     static int n; // 주어진 원소 갯수.
