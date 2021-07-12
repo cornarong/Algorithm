@@ -3,7 +3,7 @@ package algorithm08;
 import java.util.Scanner;
 
 // ## 바둑이 승차(DFS) ##
-// 재귀함수 사용. 이진트리 레벨 순회.
+// 재귀함수
 public class Algorithm_08_02 {
 
     static int c; // 최대 허용 킬로그램
