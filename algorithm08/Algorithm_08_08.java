@@ -3,7 +3,7 @@ package algorithm08;
 import java.util.Scanner;
 
 // ## 수열 추측하기 (이항계수,DFS) ##
-class Algorithm08_08 {
+class Algorithm_08_08 {
     static int n; // 가장 윗줄의 숫자의 개수 (1 ~ N)
     static int f; // 파스칼 삼각형의 맨 아래 값
     static int[] combiArr; // 이항계수를 사용한 조합수 저장 배열
@@ -49,7 +49,7 @@ class Algorithm08_08 {
     }
 
     public static void main(String[] args){
-        Algorithm08_08 T = new Algorithm08_08();
+        Algorithm_08_08 T = new Algorithm_08_08();
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
         f = kb.nextInt();
