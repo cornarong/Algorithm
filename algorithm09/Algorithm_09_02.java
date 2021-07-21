@@ -4,6 +4,7 @@ import java.util.*;
 
 
 // ## 회의실 배정 (Greedy) ##
+// https://cornarong.tistory.com/23
 // 회의가 빨리 끝나는 것부터 처리해야 최상의 결과가 나온다 - 그리디 기법
 public class Algorithm_09_02 {
 
