@@ -13,7 +13,7 @@ public class Algorithm_08_04 {
     static void DFS(int level, int sum){
 
         if(sum > m) return; // 거스름돈이 초과하면 return
-        if(level >= result) return; // level이 같거나 초과하면 return (이미 최솟값을 구한 상태)
+        if(level >= result) return; // level(갯수)이 같거나 초과하면 return (level이 현재 구한 result보다 작은 걸 계속해서 구해야한다. 크거나 같으면 그냥 retun)
         if(sum == m){ // 금액의 합계(sum)과 거스름 금액이 같으면 참
             result = Integer.min(result,level); // 기존 구해놓은 result(level)과 현재level의 작은값을 대입
             return;
