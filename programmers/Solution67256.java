@@ -1,6 +1,6 @@
 package programmers;
 
-// [카카오 인턴]키패드 누르기
+// ## [카카오 인턴] 키패드 누르기 ##
 // https://programmers.co.kr/learn/courses/30/lessons/67256?language=java
 public class Solution67256 {
     public String solution(int[] numbers, String hand) {
