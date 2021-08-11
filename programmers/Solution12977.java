@@ -1,6 +1,6 @@
 package programmers;
 
-// ## Summer/Winter Coding(~2018) 소수 만들기 ##
+// ## [Summer/Winter Coding(~2018)] 소수 만들기 ##
 // https://programmers.co.kr/learn/courses/30/lessons/12977
 public class Solution12977 {
 
