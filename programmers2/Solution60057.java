@@ -33,10 +33,10 @@ public class Solution60057 {
                     }
                 }
             }
-        System.out.println(i+"개 단위 압축 = " + result);
+//        System.out.println(i+"개 단위 압축 = " + result);
             answer = Math.min(answer,result.length());
         }
-        System.out.println(answer);
+//        System.out.println(answer);
         return answer;
     }
     public static void main(String[] args) {
