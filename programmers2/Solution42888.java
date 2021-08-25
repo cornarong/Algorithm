@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 // ## [2019 KAKAO BLIND RECRUITMENT] 오픈채팅방 ##
 // https://programmers.co.kr/learn/courses/30/lessons/42888
-// https://cornarong.tistory.com/53 - 블로그 정리
+// https://cornarong.tistory.com/53 - 개인 블로그 정리
 
 public class Solution42888 {
 
