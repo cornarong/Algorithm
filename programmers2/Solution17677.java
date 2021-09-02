@@ -5,7 +5,7 @@ package programmers2;
 
 import java.util.HashMap;
 
-public class Solution {
+public class Solution17677 {
 
     public int solution(String str1, String str2) {
         int answer = 0;
@@ -75,7 +75,7 @@ public class Solution {
         // 예시 입력 1번 / answer = 16384
         String str1 = "FRANCE";
         String str2 = "french";
-        Solution s = new Solution();
+        Solution17677 s = new Solution17677();
         s.solution(str1, str2);
 
     }
