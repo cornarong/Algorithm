@@ -1,9 +1,10 @@
 package baekjoon;
 
-import java.util.Scanner;
+import java.io.*;
 
 // ## 체스판 다시 칠하기 (브루트포스 알고리즘) ##
 // https://www.acmicpc.net/problem/1018
+// https://cornarong.tistory.com/64 - 개인 블로그 정리
 
 public class Main1018 {
 
@@ -31,17 +32,20 @@ public class Main1018 {
         return minCnt;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Main1018 T = new Main1018();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         /* 입력값 배열 만들기 */
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int m = sc.nextInt();
+        String[] nm = br.readLine().split(" ");
+        int n = Integer.parseInt(nm[0]);
+        int m = Integer.parseInt(nm[1]);
+
         String[][] arr = new String[n][m];
         for (int i = 0; i < n; i++) {
-            String temp = sc.next();
+            String temp = br.readLine();
             for (int j = 0; j < temp.length(); j++) {
                 arr[i][j] = String.valueOf(temp.charAt(j));
             }
@@ -58,6 +62,9 @@ public class Main1018 {
             }
             x++;
         }
-        System.out.println(answer);
+        bw.write(Integer.toString(answer));
+        bw.flush();
+        br.close();
+        bw.close();
     }
 }
